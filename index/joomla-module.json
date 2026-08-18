@@ -1,0 +1,9 @@
+{
+    "21c9f6f5-3193-485d-94e7-f9c789a9fa2e": {
+        "name": "Site Redirect",
+        "desc": "To Redirect your Site Page to any other part of the admin area in your Joomla for a selected group of users",
+        "path": "src\/joomla_module\/21c9f6f5-3193-485d-94e7-f9c789a9fa2e",
+        "settings": "src\/joomla_module\/21c9f6f5-3193-485d-94e7-f9c789a9fa2e\/item.json",
+        "guid": "21c9f6f5-3193-485d-94e7-f9c789a9fa2e"
+    }
+}
