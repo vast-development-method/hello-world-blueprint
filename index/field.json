@@ -10,5 +10,11 @@
         "path": "src\/field\/75e830a6-a3a5-4327-9161-3f774a6f1591",
         "settings": "src\/field\/75e830a6-a3a5-4327-9161-3f774a6f1591\/item.json",
         "guid": "75e830a6-a3a5-4327-9161-3f774a6f1591"
+    },
+    "12035b51-753b-4e3f-9f41-cde3a6046286": {
+        "name": "Redirects",
+        "path": "src\/field\/12035b51-753b-4e3f-9f41-cde3a6046286",
+        "settings": "src\/field\/12035b51-753b-4e3f-9f41-cde3a6046286\/item.json",
+        "guid": "12035b51-753b-4e3f-9f41-cde3a6046286"
     }
 }
