@@ -1,0 +1,70 @@
+{
+    "system_name": "Site Redirect",
+    "target": 1,
+    "description": "To Redirect your Site Page to any other part of the admin area in your Joomla for a selected group of users",
+    "add_php_postflight_install": 1,
+    "add_php_preflight_uninstall": 1,
+    "add_php_preflight_update": 1,
+    "update_server_target": 1,
+    "addreadme": 0,
+    "add_sql": 1,
+    "default": "<h1><?php echo Joomla___ba6326ef_cb79_4348_80f4_ab086082e3c5___Power::_('Site Redirect'); ?><\/h1>\r\n<p><?php echo Joomla___ba6326ef_cb79_4348_80f4_ab086082e3c5___Power::_('Setup your redirect in the site model <b>Site Redirect<\/b> or change this models <b>Access<\/b> to not target this users access level.'); ?><\/p>",
+    "default_header": "",
+    "snippet": "0",
+    "add_default_header": 0,
+    "add_php_postflight_update": 1,
+    "add_php_method_uninstall": 1,
+    "add_sql_uninstall": 1,
+    "add_update_server": 0,
+    "libraries": null,
+    "module_version": "5.0.0",
+    "php_preflight_install": "\/\/ PHP code that should run preflight during install.",
+    "php_preflight_update": "\/\/ PHP code that should run preflight during update.",
+    "layout_data": "\t\t\/\/ get the set values form cpanel redirect module\r\n\t\t$redirect = $data['params']->get('redirect',null);\r\n\r\n\t\t\/\/ redirect if the user is in given selected group\r\n\t\tif ($redirect && is_object($redirect) && count((array)$redirect) > 0)\r\n\t\t{\r\n\t\t\t\/\/ set the user object\r\n\t\t\t$user = $data['app']->getIdentity();\r\n\t\t\t\/\/ get user groups\r\n\t\t\t$groups = (array) $user->getAuthorisedGroups();\r\n\t\t\t\/\/ loop over the set values\r\n\t\t\tforeach ($redirect as $go)\r\n\t\t\t{\r\n\t\t\t\tif (is_object($go))\r\n\t\t\t\t{\r\n\t\t\t\t\tif (is_array($go->groups) && count($go->groups))\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\tif (array_intersect($go->groups, $groups))\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\/\/ match found - redirect\r\n\t\t\t\t\t\t\t$data['app']->redirect($go->url);\r\n\t\t\t\t\t\t\tbreak;\r\n\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}",
+    "php_preflight_uninstall": "\/\/ PHP code that should run preflight during uninstall.",
+    "custom_get": null,
+    "php_postflight_install": "\/\/ PHP code that should run postflight during install.",
+    "php_postflight_update": "\/\/ PHP code that should run postflight during update.",
+    "mod_code": "\/\/ get the set values form cpanel redirect module\r\n$redirect = $params->get('redirect',null);\r\n\r\n\/\/ redirect if the user is in given selected group\r\nif ($redirect && is_object($redirect) && count((array)$redirect) > 0)\r\n{\r\n\t\/\/ get application\r\n\t$app = Joomla___39403062_84fb_46e0_bac4_0023f766e827___Power::getApplication();\r\n\t\/\/ set the user object\r\n\t$user = Joomla___39403062_84fb_46e0_bac4_0023f766e827___Power::getUser();\r\n\t\/\/ get user groups\r\n\t$groups = (array) $user->getAuthorisedGroups();\r\n\t\/\/ loop over the set values\r\n\tforeach ($redirect as $go)\r\n\t{\r\n\t\tif (is_object($go))\r\n\t\t{\r\n\t\t\tif (is_array($go->groups) && count($go->groups))\r\n\t\t\t{\r\n\t\t\t\tif (array_intersect($go->groups, $groups))\r\n\t\t\t\t{\r\n\t\t\t\t\t\/\/ match found - redirect\r\n\t\t\t\t\t$app->redirect($go->url);\r\n\t\t\t\t\tbreak;\r\n\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}\r\n\r\n\/\/ get the module class sfx (local)\r\n$moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx', ''), ENT_COMPAT, 'UTF-8');\r\n\r\n\/\/ load the default Tmpl\r\nrequire Joomla___f15d556d_33dd_4ee3_a0f7_0653e4a7a1e4___Power::getLayoutPath('mod_[[[module]]]', $params->get('layout', 'default'));",
+    "php_method_uninstall": "\/\/ PHP script that should run during uninstall.",
+    "add_class_helper": 0,
+    "sql": "# Add your MySQL here!",
+    "add_class_helper_header": 0,
+    "sql_uninstall": "# Add your MySQL here for uninstall!",
+    "class_helper_header": "",
+    "readme": "You can use all the normal markdown, including the place-holders.",
+    "class_helper_code": "",
+    "update_server_url": "",
+    "fields": {
+        "fields0": {
+            "module": "1",
+            "file": "config",
+            "fields_name": "params",
+            "fieldset": "basic",
+            "label": "Details",
+            "fields_rules_paths": "2",
+            "addrulepath": [],
+            "addfieldpath": [],
+            "fields": {
+                "fields0": {
+                    "field": "12035b51-753b-4e3f-9f41-cde3a6046286",
+                    "custom_value": ""
+                }
+            }
+        }
+    },
+    "add_php_script_construct": 0,
+    "php_script_construct": "",
+    "add_php_preflight_install": 1,
+    "guid": "21c9f6f5-3193-485d-94e7-f9c789a9fa2e",
+    "name": "SiteRedirect",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "12035b51-753b-4e3f-9f41-cde3a6046286",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}
