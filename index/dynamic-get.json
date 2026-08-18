@@ -1,0 +1,14 @@
+{
+    "08516416-4d1d-4850-83ae-27e289b8a006": {
+        "name": "GreetingList",
+        "path": "src\/dynamic_get\/08516416-4d1d-4850-83ae-27e289b8a006",
+        "settings": "src\/dynamic_get\/08516416-4d1d-4850-83ae-27e289b8a006\/item.json",
+        "guid": "08516416-4d1d-4850-83ae-27e289b8a006"
+    },
+    "66fd1d43-860c-45c9-821a-b3364e864f64": {
+        "name": "Greeting",
+        "path": "src\/dynamic_get\/66fd1d43-860c-45c9-821a-b3364e864f64",
+        "settings": "src\/dynamic_get\/66fd1d43-860c-45c9-821a-b3364e864f64\/item.json",
+        "guid": "66fd1d43-860c-45c9-821a-b3364e864f64"
+    }
+}
