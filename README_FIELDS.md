@@ -59,6 +59,7 @@ This preserves version control while allowing your own field improvements to liv
 
  - **Alias** | [Details](src/field/335866ce-b81b-4329-901d-c20254135c9c) | [Settings](src/field/335866ce-b81b-4329-901d-c20254135c9c/item.json)
  - **Greeting** | [Details](src/field/75e830a6-a3a5-4327-9161-3f774a6f1591) | [Settings](src/field/75e830a6-a3a5-4327-9161-3f774a6f1591/item.json)
+ - **Redirects** | [Details](src/field/12035b51-753b-4e3f-9f41-cde3a6046286) | [Settings](src/field/12035b51-753b-4e3f-9f41-cde3a6046286/item.json)
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 
