@@ -16,5 +16,17 @@
         "path": "src\/field\/12035b51-753b-4e3f-9f41-cde3a6046286",
         "settings": "src\/field\/12035b51-753b-4e3f-9f41-cde3a6046286\/item.json",
         "guid": "12035b51-753b-4e3f-9f41-cde3a6046286"
+    },
+    "59a0cad6-26cc-43b6-8af8-2242eb595d76": {
+        "name": "Groups (multi)",
+        "path": "src\/field\/59a0cad6-26cc-43b6-8af8-2242eb595d76",
+        "settings": "src\/field\/59a0cad6-26cc-43b6-8af8-2242eb595d76\/item.json",
+        "guid": "59a0cad6-26cc-43b6-8af8-2242eb595d76"
+    },
+    "d29d6854-bb4a-4fa2-83a1-5a1b9c9a0eaf": {
+        "name": "URL",
+        "path": "src\/field\/d29d6854-bb4a-4fa2-83a1-5a1b9c9a0eaf",
+        "settings": "src\/field\/d29d6854-bb4a-4fa2-83a1-5a1b9c9a0eaf\/item.json",
+        "guid": "d29d6854-bb4a-4fa2-83a1-5a1b9c9a0eaf"
     }
 }
