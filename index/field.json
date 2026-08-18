@@ -1,0 +1,14 @@
+{
+    "335866ce-b81b-4329-901d-c20254135c9c": {
+        "name": "Alias",
+        "path": "src\/field\/335866ce-b81b-4329-901d-c20254135c9c",
+        "settings": "src\/field\/335866ce-b81b-4329-901d-c20254135c9c\/item.json",
+        "guid": "335866ce-b81b-4329-901d-c20254135c9c"
+    },
+    "75e830a6-a3a5-4327-9161-3f774a6f1591": {
+        "name": "Greeting",
+        "path": "src\/field\/75e830a6-a3a5-4327-9161-3f774a6f1591",
+        "settings": "src\/field\/75e830a6-a3a5-4327-9161-3f774a6f1591\/item.json",
+        "guid": "75e830a6-a3a5-4327-9161-3f774a6f1591"
+    }
+}
