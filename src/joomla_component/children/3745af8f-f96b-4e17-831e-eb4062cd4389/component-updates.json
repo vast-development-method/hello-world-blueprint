@@ -1,0 +1,26 @@
+{
+    "joomla_component": "3745af8f-f96b-4e17-831e-eb4062cd4389",
+    "version_update": {
+        "version_update0": {
+            "version": "6.0.0",
+            "mysql": "",
+            "url": "https:\/\/github.com\/vast-development-method\/hello-world-joomla-component\/archive\/v6.0.0.zip",
+            "update_server_adv": "1",
+            "update_server_type": "package",
+            "update_element": "pkg_helloworld",
+            "update_state": "stable",
+            "update_target_version": "6.*",
+            "change_log": "- Release of Hello World Component.",
+            "update_client": "administrator"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "3745af8f-f96b-4e17-831e-eb4062cd4389",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        }
+    ]
+}
