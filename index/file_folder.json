@@ -1,0 +1,22 @@
+{
+    "82db26da-1e2c-53bc-850a-7b620dd8414d.jpg": {
+        "name": "images\/demo300.jpg",
+        "path": "src\/file_folder\/82db26da-1e2c-53bc-850a-7b620dd8414d.jpg",
+        "guid": "82db26da-1e2c-53bc-850a-7b620dd8414d.jpg"
+    },
+    "422f4f9a-ef9b-51c9-924b-84994fede0e4.txt": {
+        "name": "default.txt",
+        "path": "src\/file_folder\/422f4f9a-ef9b-51c9-924b-84994fede0e4.txt",
+        "guid": "422f4f9a-ef9b-51c9-924b-84994fede0e4.txt"
+    },
+    "c197a3f4-f903-59c3-96e3-dcaf17e5b60e.png": {
+        "name": "images\/Full-Bucket-icon.png",
+        "path": "src\/file_folder\/c197a3f4-f903-59c3-96e3-dcaf17e5b60e.png",
+        "guid": "c197a3f4-f903-59c3-96e3-dcaf17e5b60e.png"
+    },
+    "5f5d1982-2942-5a26-b485-9e1a6cf21423.png": {
+        "name": "images\/Full-Bucket-icon-plus.png",
+        "path": "src\/file_folder\/5f5d1982-2942-5a26-b485-9e1a6cf21423.png",
+        "guid": "5f5d1982-2942-5a26-b485-9e1a6cf21423.png"
+    }
+}
