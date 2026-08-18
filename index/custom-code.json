@@ -1,0 +1,9 @@
+{
+    "readMEcontributors": {
+        "name": "README - Contributors 2 JCB",
+        "desc": "JCB (manual)",
+        "path": "src\/custom_code\/readMEcontributors",
+        "settings": "src\/custom_code\/readMEcontributors\/item.json",
+        "guid": "readMEcontributors"
+    }
+}
