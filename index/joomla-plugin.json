@@ -1,0 +1,9 @@
+{
+    "8aa96d76-94e3-47d1-8dd8-f430b72ed0f7": {
+        "name": "Global Privacy J5",
+        "desc": "The plugin to fully integrate componentbuilder with the privacy suite of Joomla.",
+        "path": "src\/joomla_plugin\/8aa96d76-94e3-47d1-8dd8-f430b72ed0f7",
+        "settings": "src\/joomla_plugin\/8aa96d76-94e3-47d1-8dd8-f430b72ed0f7\/item.json",
+        "guid": "8aa96d76-94e3-47d1-8dd8-f430b72ed0f7"
+    }
+}
