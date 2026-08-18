@@ -1,0 +1,16 @@
+{
+    "2fec9afa-bf4f-4bd0-8054-715550443824": {
+        "name": "Greetings",
+        "desc": "Greetings",
+        "path": "src\/site_view\/2fec9afa-bf4f-4bd0-8054-715550443824",
+        "settings": "src\/site_view\/2fec9afa-bf4f-4bd0-8054-715550443824\/item.json",
+        "guid": "2fec9afa-bf4f-4bd0-8054-715550443824"
+    },
+    "4b94ea55-9f6a-4d3e-be0a-869dbb4ac01b": {
+        "name": "Greeting",
+        "desc": "Greeting",
+        "path": "src\/site_view\/4b94ea55-9f6a-4d3e-be0a-869dbb4ac01b",
+        "settings": "src\/site_view\/4b94ea55-9f6a-4d3e-be0a-869dbb4ac01b\/item.json",
+        "guid": "4b94ea55-9f6a-4d3e-be0a-869dbb4ac01b"
+    }
+}
